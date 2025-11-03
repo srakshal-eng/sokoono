@@ -1,0 +1,207 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body.index-page {
+    height: 100vh;
+    background-image: url('backgroundwelcome1.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+     background-attachment: fixed;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgb(247, 2, 161);
+    padding-top: 1em;
+}
+h2 {
+    text-align: center;
+}
+
+
+p {
+    text-align: center;
+    font-style: italic;
+    width: 50em;
+    margin: auto;
+    padding-bottom: 2em;
+}
+
+/*planning page*/
+
+.row {
+    width: 100%;
+    margin-top: 2em;
+}
+
+.column-left {
+    width: 50%;
+    float: left;
+    padding: 1em;
+    background-color: lavender;
+}
+
+.column-right {
+    width: 50%;
+    float: right;
+    padding: 2em;
+    background-color: rgb(253, 213, 10);
+
+}
+.column {
+    width: 25vw;
+    padding: 1em;
+}
+.column:hover {
+    background-color: rgb(20, 243, 8);
+}
+
+/*pro con page*/
+
+td, th {
+    border: solid;
+    padding: 0.5em 1em;
+}
+tr:hover {
+    background-color: rgb(8, 234, 226);
+    color: white;
+}
+
+/*activities pg*/ 
+
+.activities-page .row {
+    width: 100%;
+    margin-top: 2em;
+    
+}
+
+.activities-page .column {
+    width: 33.33%;      
+    float: left;        
+    padding: 1em;
+    
+}
+
+.activities-page .photo {
+    width: 18em;        
+    height: 23em;
+    display: block;    
+    margin: auto;       
+}
+
+.activities-page .caption-text {
+    text-align: center;
+}
+
+/* index page  */
+.gif-link {
+    position: absolute;
+    top: 15em;
+    left: 61em;
+}
+.gif-link img {
+    display: block;
+}
+.welcome-text {
+    position: absolute;
+    top: 14em;
+    left: 35em;
+    font-size: 2em;
+    color: white;
+}
+.welcome-text:hover {
+    color: blue;
+    text-decoration: underline;
+}
+
+/*buttons buttons*/
+
+nav {
+    text-align: center;  
+    margin-top: 2em;     
+    margin-bottom: 2em;
+}
+
+.nav-button {
+    padding: 1em;
+    background-color: lightblue;
+    border-radius: 1em;
+    border: none;          
+    margin: 0.5em;         
+}
+
+.navlink {
+    text-decoration: none;
+    color: hotpink;
+    font-family: 'Comic Sans MS', cursive, sans-serif; 
+    font-size: 1.2em;
+}
+
+.nav-button:hover {
+    background-color: deepskyblue;
+}
+
+.navlink:hover {
+    color: white;
+}
+
+
+.back-button {
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+    padding: 0.5em 1em;
+    background-color: lightblue;
+    color: hotpink;
+    border-radius: 0.5em;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+.back-button:hover {
+    background-color: deepskyblue;
+    color: white;
+
+} 
+
+/*lists recipes*/
+
+ul {
+    margin: 1em auto;
+    padding-left:  2em;
+    font-size: 1.2em;
+    list-style-type: disc;
+}
+
+ul ul {
+    list-style-type: circle;  
+    margin-left:  1em;
+}
+
+li {
+    padding: 0.2em 0;
+}
+
+
+h2 {
+    margin-top: 2em;
+margin-bottom: 0.5em;
+}
+
