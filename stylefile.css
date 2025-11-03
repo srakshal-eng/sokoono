@@ -110,12 +110,12 @@ tr:hover {
 }
 
 /* index page  */
-.gif-link {
+.gif-bubble {
     position: absolute;
     top: 15em;
     left: 61em;
 }
-.gif-link img {
+.gif-bubble img {
     display: block;
 }
 .welcome-text {
